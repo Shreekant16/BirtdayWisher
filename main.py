@@ -8,7 +8,7 @@ today_date = datetime.now().day
 data = pandas.read_csv('data.csv')
 month = data.month.to_list()
 my_mail = "shreekantpukale16@gmail.com"
-password = "odrnblbwytixvppi"
+password = "Thisshouldcontainyourpassword"
 if today_month in month:
     row_data = data[data.month == today_month]
     if int(today_date) == int(row_data.date):
